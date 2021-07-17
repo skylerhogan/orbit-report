@@ -41,8 +41,3 @@ tr:nth-child(even) {
   font-weight: bold;
   background-color: #34495e;
 }
-
-.orbit-report {
-  display: block;
-  float: left;
-}
