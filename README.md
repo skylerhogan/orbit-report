@@ -14,7 +14,7 @@ For this project I was tasked with creating a searchable, sortable table of sate
 ## I learned how to:
 
 1) Iterate over JSON files to create objects
-2) Utilize Angular CLI and component generation
+2) Utilize Angular CLI, TypeScript and component generation
 3) Incorporate templates to make dynamic pages
 4) Use data-binding
 5) Employ Firebase to deploy Angular apps
