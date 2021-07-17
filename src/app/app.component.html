@@ -2,7 +2,7 @@
 <div class="search-form">
   <input
     #searchTerm
-    (keyup.ente)="search(searchTerm.value)"
+    (keyup.enter)="search(searchTerm.value)"
     placeholder="Sirius 1"
   />
   <button (click)="search(searchTerm.value)">Search</button>
