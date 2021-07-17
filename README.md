@@ -1,28 +1,27 @@
-# OrbitReport
+# Orbit Report
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+<p align="center"><img width="500" alt="Screen Shot 2021-07-16 at 8 46 15 PM" src="https://user-images.githubusercontent.com/79928899/126022019-43211b28-25ba-4135-964f-ce9cc3e3c41f.png"></p>
 
-## Development server
+For this project I was tasked with creating a searchable, sortable table of satellites. For the purposes of the assignment, a satellite was defined as any object purposefully placed into orbit.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features:
 
-## Code scaffolding
+1) Satellites: Each row in the table contains data on one satellite.
+2) Search form: Filters the results based on matches to the entered text. Pressing enter or clicking the button triggers the search.
+3) Sortable columns: The Name and Type column headers can be clicked, which will sort the table by corresponding property.
+4) Counts: Displays the total number of satellites in the table, as well as the count for each type of satellite. This also updates on search.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## I learned how to:
 
-## Build
+1) Iterate over JSON files to create objects
+2) Utilize Angular CLI and component generation
+3) Incorporate templates to make dynamic pages
+4) Use data-binding
+5) Employ Firebase to deploy Angular apps
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+<p align="center"><img width="648" alt="Screen Shot 2021-07-16 at 9 02 26 PM" src="https://user-images.githubusercontent.com/79928899/126022222-6d2f35ba-485f-410d-9ea0-be98848fc481.png">
+<img width="255" alt="Screen Shot 2021-07-16 at 9 02 56 PM" src="https://user-images.githubusercontent.com/79928899/126022229-85502a11-907a-47a1-b55c-65e490f21029.png"></p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# orbit-report
+## Try it out!
+https://orbit-report.web.app
